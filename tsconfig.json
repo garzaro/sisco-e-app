@@ -1,0 +1,10 @@
+//faz parte da configuração do shadcn
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
