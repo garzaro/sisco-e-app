@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tailwind:init": "npx tailwindcss init -p"
+    "tailwind:init": "npx tailwindcss init -p",
+    "tailwind": "tailwindcss -i ./src/styles/global.css -o ./public/output.css --watch"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",
